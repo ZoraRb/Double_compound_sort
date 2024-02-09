@@ -1,0 +1,324 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:211:101" msg_body="unused parameter 'size'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:724:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:738:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:752:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = array_temp complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = array_dtemp complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = comparative_sign complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:58:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="ii = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:144:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:150:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = array_temp complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = comparative_sign complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="ii = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 20 min = 20" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:180:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_sort_top" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge_sort_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 20 min = 20" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:452:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mergeSort" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="genData" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100000 min = 100000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="genData" ARG_PragmaIsValid="1" ARG_PragmaOptions="ii = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert2Storage" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100 min = 100" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert2Storage" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 1000 min = 1000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:63:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert2Storage" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:87:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100000 min = 100000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:88:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:106:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mergeSortWrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100 min = 100" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:155:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm0 depth = 2048" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm0 depth = 2048" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm0 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:158:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm0 type = fifo impl = lutram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:159:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm1 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm1 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:161:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm1 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm2 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm2 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm2 depth = 4" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="merge1to4Wrapper" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm0 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm0 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm0 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm1 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:212:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm1 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm1 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:214:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm2 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:215:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endBlockStrm2 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm2 depth = 8" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readArrayCore" ARG_PragmaIsValid="1" ARG_PragmaOptions="ii = 2" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:252:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readArray2NStream" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:254:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readArray2NStream" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mergeSortN" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:263:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mergeSortN" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:278:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="outputStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:279:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="outputStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100000 min = 100000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:305:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart2" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:309:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = keyStrm depth = 16" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sortPart2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = endStrm depth = 16" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:356:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compoundSort" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = value type = ram_2p impl = uram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:357:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compoundSort" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = value dim = 1 block factor = AP" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:127:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100000 min = 100000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channel1toNCore" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compoundSortWrapper" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100 min = 100" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="max = 100 min = 100" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd/vadd.tcl:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vadd" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:240:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port = in1 bundle = gmem0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port = out bundle = gmem2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:244:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=s_axilite port=size" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vadd" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:262:5" msg_body="Inlining function 'void xf::database::details::insert_sort_top&lt;int, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)' into 'void xf::database::insertSort&lt;int, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)'">
+        <args Callee="void xf::database::details::insert_sort_top&lt;int, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)" Caller="void xf::database::insertSort&lt;int, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:179:9" msg_body="Loop 'initial_sign_loop' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="initial_sign_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:201:9" msg_body="Loop 'right_shift_insert_loop' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="right_shift_insert_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:280:1) in function 'vadd' completely with a factor of 2">
+        <args Factor="2" LoopLoc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:280:1" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 2, 124&gt;' completely with a factor of 1">
+        <args Factor="1" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 4, 120&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 8, 112&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 16, 96&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 32, 64&gt;' completely with a factor of 16">
+        <args Factor="16" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN&lt;int, 64, 0&gt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:251:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:253:2) in function 'xf::database::details::readArray2NStream&lt;int, ap_uint&lt;64&gt;, 64, 8192&gt;' completely with a factor of 64">
+        <args Factor="64" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:253:2" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:144:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:172:5) in function 'xf::database::details::merge1to4Wrapper&lt;int, 1024&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:172:5" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:144:0" msg_body="Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:166:5) in function 'xf::database::details::merge1to4Wrapper&lt;int, 1024&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:166:5" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:261:0" msg_body="Unrolling loop 'initial_sign_loop' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:179:9) in function 'xf::database::insertSort&lt;int, 1024&gt;' completely with a factor of 1023">
+        <args Factor="1023" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:179:9" LoopName="initial_sign_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:261:0" msg_body="Unrolling loop 'right_shift_insert_loop' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:201:9) in function 'xf::database::insertSort&lt;int, 1024&gt;' completely with a factor of 1023">
+        <args Factor="1023" LoopLoc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:201:9" LoopName="right_shift_insert_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:79:0" msg_body="Inlining function 'hls::print(char const*)' into 'void read_input&lt;int&gt;(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)'">
+        <args Callee="hls::print(char const*)" Caller="void read_input&lt;int&gt;(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:118:0" msg_body="Inlining function 'hls::print(char const*)' into 'void channel1toNCore&lt;int, 524288, 2&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;bool, 0&gt;*)'">
+        <args Callee="hls::print(char const*)" Caller="void channel1toNCore&lt;int, 524288, 2&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;bool, 0&gt;*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:411:0" msg_body="Inlining function 'void xf::database::details::merge_sort_top&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)' into 'void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)'">
+        <args Callee="void xf::database::details::merge_sort_top&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)" Caller="void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:125:0" msg_body="Inlining function 'void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)' into 'void xf::database::details::mergeSortWrapper&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)'">
+        <args Callee="void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)" Caller="void xf::database::details::mergeSortWrapper&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:230:0" msg_body="Inlining function 'hls::print(char const*, int)' into 'void xf::database::details::readArrayCore&lt;int, ap_uint&lt;64&gt; &gt;(int, ap_uint&lt;64&gt;*, int, int, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)'">
+        <args Callee="hls::print(char const*, int)" Caller="void xf::database::details::readArrayCore&lt;int, ap_uint&lt;64&gt; &gt;(int, ap_uint&lt;64&gt;*, int, int, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:274:0" msg_body="Inlining function 'hls::print(char const*)' into 'void xf::database::details::outputStream&lt;int, 126&gt;(hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)'">
+        <args Callee="hls::print(char const*)" Caller="void xf::database::details::outputStream&lt;int, 126&gt;(hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:274:0" msg_body="Inlining function 'hls::print(char const*, int)' into 'void xf::database::details::outputStream&lt;int, 126&gt;(hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)'">
+        <args Callee="hls::print(char const*, int)" Caller="void xf::database::details::outputStream&lt;int, 126&gt;(hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:346:0" msg_body="Inlining function 'hls::print(char const*)' into 'void xf::database::compoundSort&lt;int, 524288, 1024&gt;(bool, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)'">
+        <args Callee="hls::print(char const*)" Caller="void xf::database::compoundSort&lt;int, 524288, 1024&gt;(bool, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:170:0" msg_body="Inlining function 'void xf::database::compoundSort&lt;int, 524288, 1024&gt;(bool, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)' into 'void compoundSortWrapper&lt;int, 524288, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)'">
+        <args Callee="void xf::database::compoundSort&lt;int, 524288, 1024&gt;(bool, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;)" Caller="void compoundSortWrapper&lt;int, 524288, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:211:0" msg_body="Inlining function 'hls::print(char const*)' into 'write_result(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)'">
+        <args Callee="hls::print(char const*)" Caller="write_result(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Inlining function 'void read_input&lt;int&gt;(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)' into 'vadd'">
+        <args Callee="void read_input&lt;int&gt;(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)" Caller="vadd"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Inlining function 'void channel1toNCore&lt;int, 524288, 2&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;bool, 0&gt;*)' into 'vadd'">
+        <args Callee="void channel1toNCore&lt;int, 524288, 2&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;*, hls::stream&lt;bool, 0&gt;*, hls::stream&lt;bool, 0&gt;*)" Caller="vadd"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Inlining function 'void compoundSortWrapper&lt;int, 524288, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)' into 'vadd'">
+        <args Callee="void compoundSortWrapper&lt;int, 524288, 1024&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)" Caller="vadd"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Inlining function 'void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)' into 'vadd'">
+        <args Callee="void xf::database::mergeSort&lt;int&gt;(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, bool)" Caller="vadd"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0" msg_body="Inlining function 'write_result(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)' into 'vadd'">
+        <args Callee="write_result(int*, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;bool, 0&gt;&amp;, int)" Caller="vadd"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

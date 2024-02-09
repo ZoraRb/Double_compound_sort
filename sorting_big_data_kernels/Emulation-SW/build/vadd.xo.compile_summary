@@ -1,0 +1,171 @@
+<ENTRY>
+{
+ "thisFile": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Feb  8 18:23:16 2024",
+ "timestampMillis": "1707445396852",
+ "buildStep": {
+  "cmdId": "8085aa02-ee4c-46ca-a0dd-0f0f1946f2b2",
+  "name": "v++",
+  "logFile": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd.steps.log",
+  "commandLine": "/home/zohra/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --target sw_emu --compile -I../src --config vadd-compile.cfg -I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/sw -I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw -I/home/zohra/Vitis_Libraries-2022.1/utils -obuild/vadd.xo ../src/vadd.cpp ",
+  "args": [
+   "--target",
+   "sw_emu",
+   "--compile",
+   "-I../src",
+   "--config",
+   "vadd-compile.cfg",
+   "-I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/sw",
+   "-I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw",
+   "-I/home/zohra/Vitis_Libraries-2022.1/utils",
+   "-obuild/vadd.xo",
+   "../src/vadd.cpp"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/vadd-compile.cfg",
+    "content": "platform=xilinx_u250_gen3x16_xdma_2_1_202010_1\nsave-temps=1\nkernel=vadd\ndebug=1\nmessageDb=build/vadd.mdb\ntemp_dir=build\nreport_dir=build/reports\nlog_dir=build/logs\n\n[advanced]\nmisc=solution_name=vadd"
+   }
+  ],
+  "cwd": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Feb  8 18:23:16 2024",
+ "timestampMillis": "1707445396852",
+ "status": {
+  "cmdId": "8085aa02-ee4c-46ca-a0dd-0f0f1946f2b2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Feb  8 18:23:25 2024",
+ "timestampMillis": "1707445405905",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "vadd",
+     "file": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Feb  8 18:23:25 2024",
+ "timestampMillis": "1707445405910",
+ "buildStep": {
+  "cmdId": "18e0a170-2463-430d-998c-c47206828cdd",
+  "name": "vitis_hls",
+  "logFile": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd/vadd.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd/vadd.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Feb  8 18:23:25 2024",
+ "timestampMillis": "1707445405916",
+ "status": {
+  "cmdId": "18e0a170-2463-430d-998c-c47206828cdd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Feb  8 18:26:48 2024",
+ "timestampMillis": "1707445608117",
+ "status": {
+  "cmdId": "18e0a170-2463-430d-998c-c47206828cdd",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Feb  8 18:26:48 2024",
+ "timestampMillis": "1707445608128",
+ "report": {
+  "path": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Feb  8 18:26:48 2024",
+ "timestampMillis": "1707445608129",
+ "report": {
+  "path": "/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Feb  8 18:26:48 2024",
+ "timestampMillis": "1707445608129",
+ "status": {
+  "cmdId": "8085aa02-ee4c-46ca-a0dd-0f0f1946f2b2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

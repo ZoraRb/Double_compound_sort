@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="link" dir="">
+  <FileSets>
+    <FileSet Name="kernel_vadd" Type="DesignSrcs">
+      <File Path="/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.build/link/int/xo/vadd/vadd/cpu_sources/vadd.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

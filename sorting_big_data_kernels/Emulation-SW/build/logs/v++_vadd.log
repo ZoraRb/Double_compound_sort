@@ -1,0 +1,18 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/reports/vadd
+	Log files: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/logs/vadd
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo.compile_summary, at Thu Feb  8 18:23:18 2024
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Feb  8 18:23:18 2024
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-1302] Platform 'xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm' has been explicitly enabled for this release.
+INFO: [v++ 60-585] Compiling for software emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_2_1_202010_1
+INFO: [v++ 60-242] Creating kernel: 'vadd'
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-586] Created build/vadd.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 41s
+INFO: [v++ 60-1653] Closing dispatch client.

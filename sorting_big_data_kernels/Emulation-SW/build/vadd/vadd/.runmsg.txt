@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: vadd
+Log file: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd/vadd/vitis_hls.log

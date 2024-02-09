@@ -1,0 +1,51 @@
+timestamp=[2024-02-08 17:39:55], mode=WORKBENCH_START, duration=0:00:08.928, duration_ms=8928, data={}
+timestamp=[2024-02-08 17:39:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.287, duration_ms=1287, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-02-08 17:39:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.685, duration_ms=1685, data={}
+timestamp=[2024-02-08 17:41:20], mode=APP_CREATION, duration=0:00:15.603, duration_ms=15603, data={name=sorting_big_data, project_type=datacenter, os=NA, processor=null, runtime=OpenCL, platform=xilinx_u250_gen3x16_xdma_2_1_202010_1, application_type=application}
+timestamp=[2024-02-08 17:46:34], mode=BUILD, duration=0:00:36.792, duration_ms=36792, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 17:48:06], mode=BUILD, duration=0:00:39.009, duration_ms=39009, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 17:48:40], mode=BUILD, duration=0:00:33.077, duration_ms=33077, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 17:52:24], mode=BUILD, duration=0:03:40.876, duration_ms=220876, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 17:52:59], mode=BUILD, duration=0:00:34.378, duration_ms=34378, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:01:05], mode=BUILD, duration=0:00:00.006, duration_ms=6, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-02-08 18:01:16], mode=BUILD, duration=0:00:10.610, duration_ms=10610, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:02:11], mode=BUILD, duration=0:00:01.552, duration_ms=1552, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:02:16], mode=BUILD, duration=0:00:01.658, duration_ms=1658, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:02:17], mode=BUILD, duration=0:00:01.640, duration_ms=1640, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:02:42], mode=BUILD, duration=0:00:24.674, duration_ms=24674, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:03:42], mode=BUILD, duration=0:00:01.496, duration_ms=1496, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:04:30], mode=BUILD, duration=0:00:01.526, duration_ms=1526, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:04:43], mode=BUILD, duration=0:00:01.561, duration_ms=1561, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:07:22], mode=BUILD, duration=0:00:01.499, duration_ms=1499, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:07:47], mode=BUILD, duration=0:00:01.501, duration_ms=1501, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:07:51], mode=BUILD, duration=0:00:01.589, duration_ms=1589, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:07:53], mode=BUILD, duration=0:00:01.433, duration_ms=1433, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:08:17], mode=BUILD, duration=0:00:23.762, duration_ms=23762, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:09:40], mode=BUILD, duration=0:00:01.688, duration_ms=1688, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:10:34], mode=BUILD, duration=0:00:01.494, duration_ms=1494, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:10:50], mode=BUILD, duration=0:00:01.546, duration_ms=1546, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:12:13], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:13:28], mode=BUILD, duration=0:00:01.486, duration_ms=1486, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:13:33], mode=BUILD, duration=0:00:01.485, duration_ms=1485, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:13:34], mode=BUILD, duration=0:00:01.480, duration_ms=1480, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:14:01], mode=BUILD, duration=0:00:26.188, duration_ms=26188, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:15:40], mode=BUILD, duration=0:00:01.490, duration_ms=1490, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:15:45], mode=BUILD, duration=0:00:01.634, duration_ms=1634, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:15:47], mode=BUILD, duration=0:00:01.433, duration_ms=1433, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:16:11], mode=BUILD, duration=0:00:24.706, duration_ms=24706, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:17:31], mode=BUILD, duration=0:00:01.496, duration_ms=1496, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:17:36], mode=BUILD, duration=0:00:01.440, duration_ms=1440, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:17:37], mode=BUILD, duration=0:00:01.428, duration_ms=1428, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:18:02], mode=BUILD, duration=0:00:24.392, duration_ms=24392, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:18:38], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:18:43], mode=BUILD, duration=0:00:01.487, duration_ms=1487, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:18:44], mode=BUILD, duration=0:00:01.511, duration_ms=1511, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:19:09], mode=BUILD, duration=0:00:24.427, duration_ms=24427, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:19:41], mode=BUILD, duration=0:00:01.593, duration_ms=1593, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:19:46], mode=BUILD, duration=0:00:01.540, duration_ms=1540, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:19:47], mode=BUILD, duration=0:00:01.688, duration_ms=1688, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:20:11], mode=BUILD, duration=0:00:23.966, duration_ms=23966, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:22:59], mode=BUILD, duration=0:00:01.526, duration_ms=1526, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:26:48], mode=BUILD, duration=0:03:45.234, duration_ms=225234, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:27:23], mode=BUILD, duration=0:00:35.460, duration_ms=35460, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:27:49], mode=BUILD, duration=0:00:25.495, duration_ms=25495, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}

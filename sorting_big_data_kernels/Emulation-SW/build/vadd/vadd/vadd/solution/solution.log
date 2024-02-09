@@ -1,0 +1,49 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xcu250-figd2104-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 300.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1510] Running: config_rtl -kernel_profile 
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_debug -enable 
+INFO: [HLS 200-1510] Running: config_export -deadlock_detection none 
+WARNING: [HLS 200-483] The 'config_export -deadlock_detection' command is deprecated and will be removed in a future release. Use 'config_rtl -deadlock_detection' as its replacement.
+INFO: [HLS 200-1907] Replacing 'config_export -deadlock_detection=none' with 'config_rtl -deadlock_detection=none' in current solution file
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname vadd 
+INFO: [HLS 200-1907] Replacing 'config_export -deadlock_detection=none' with 'config_rtl -deadlock_detection=none' in current solution file
+INFO: [HLS 200-1510] Running: csynth_design -synthesis_check 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 1.209 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'size' (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:211:101)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.26 seconds. CPU system time: 0.58 seconds. Elapsed time: 5.41 seconds; current allocated memory: 206.641 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 214-131] Inlining function 'void xf::database::details::insert_sort_top<int, 1024>(hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, bool)' into 'void xf::database::insertSort<int, 1024>(hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, bool)' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:262:5)
+INFO: [HLS 214-291] Loop 'initial_sign_loop' is marked as complete unroll implied by the pipeline pragma (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:179:9)
+INFO: [HLS 214-291] Loop 'right_shift_insert_loop' is marked as complete unroll implied by the pipeline pragma (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:201:9)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:280:1) in function 'vadd' completely with a factor of 2 (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:236:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 2, 124>' completely with a factor of 1 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 4, 120>' completely with a factor of 2 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 8, 112>' completely with a factor of 4 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 16, 96>' completely with a factor of 8 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 32, 64>' completely with a factor of 16 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:262:2) in function 'xf::database::details::mergeSortN<int, 64, 0>' completely with a factor of 32 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:260:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:253:2) in function 'xf::database::details::readArray2NStream<int, ap_uint<64>, 64, 8192>' completely with a factor of 64 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:251:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:172:5) in function 'xf::database::details::merge1to4Wrapper<int, 1024>' completely with a factor of 2 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:144:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:166:5) in function 'xf::database::details::merge1to4Wrapper<int, 1024>' completely with a factor of 4 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/compound_sort.hpp:144:0)
+INFO: [HLS 214-186] Unrolling loop 'initial_sign_loop' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:179:9) in function 'xf::database::insertSort<int, 1024>' completely with a factor of 1023 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:261:0)
+INFO: [HLS 214-186] Unrolling loop 'right_shift_insert_loop' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:201:9) in function 'xf::database::insertSort<int, 1024>' completely with a factor of 1023 (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/insert_sort.hpp:261:0)
+INFO: [HLS 214-178] Inlining function 'hls::print(char const*)' into 'void read_input<int>(int*, hls::stream<int, 0>&, hls::stream<bool, 0>&, int)' (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:79:0)
+INFO: [HLS 214-178] Inlining function 'hls::print(char const*)' into 'void channel1toNCore<int, 524288, 2>(hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>*, hls::stream<bool, 0>*, hls::stream<bool, 0>*)' (/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src/vadd.cpp:118:0)
+INFO: [HLS 214-178] Inlining function 'void xf::database::details::merge_sort_top<int>(hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, bool)' into 'void xf::database::mergeSort<int>(hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, hls::stream<int, 0>&, hls::stream<bool, 0>&, bool)' (/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw/xf_database/merge_sort.hpp:411:0)

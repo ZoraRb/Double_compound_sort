@@ -1,0 +1,6 @@
+18:22:58 **** Incremental Build of configuration Emulation-SW for project sorting_big_data ****
+make -j4 all 
+make: Nothing to be done for 'all'.
+
+18:22:59 Build Finished (took 1s.498ms)
+

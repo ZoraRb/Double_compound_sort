@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="sorting_big_data_system_hw_link" platform="/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm" systemProject="sorting_big_data_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.1905684563">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="vadd">
+        <kernels name="vadd" projectName="sorting_big_data_kernels">
+          <computeUnits name="vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="order"/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="vadd">
+        <kernels name="vadd" projectName="sorting_big_data_kernels">
+          <computeUnits name="vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="order"/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.1065080563">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="vadd">
+        <kernels name="vadd" projectName="sorting_big_data_kernels">
+          <computeUnits name="vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="order"/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.250389575">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="vadd">
+        <kernels name="vadd" projectName="sorting_big_data_kernels">
+          <computeUnits name="vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="order"/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>
