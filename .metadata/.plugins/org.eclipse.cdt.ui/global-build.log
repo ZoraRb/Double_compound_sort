@@ -1,65 +1,13 @@
-18:22:58 **** Incremental Build of configuration Emulation-SW for project sorting_big_data ****
+18:39:10 **** Incremental Build of configuration Emulation-SW for project sorting_big_data ****
 make -j4 all 
 make: Nothing to be done for 'all'.
-18:23:02 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_kernels ****
+18:39:15 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_kernels ****
 make -j4 all 
-/home/zohra/Vitis/2022.1/bin/v++ --target sw_emu --compile -I"../src" --config vadd-compile.cfg -I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/sw -I/home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw -I/home/zohra/Vitis_Libraries-2022.1/utils -o"build/vadd.xo" "../src/vadd.cpp"
-Option Map File Used: '/home/zohra/Vitis/2022.1/data/vitis/vpp/optMap.xml'
-
-****** v++ v2022.1 (64-bit)
-  **** SW Build 3524075 on 2022-04-13-17:42:45
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
-	Reports: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/reports/vadd
-	Log files: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/logs/vadd
-Running Dispatch Server on port: 33233
-INFO: [v++ 60-1548] Creating build summary session with primary output /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo.compile_summary, at Thu Feb  8 18:23:18 2024
-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Feb  8 18:23:18 2024
-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm
-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/hw/hw.xsa'
-INFO: [v++ 74-78] Compiler Version string: 2022.1
-INFO: [v++ 60-1302] Platform 'xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm' has been explicitly enabled for this release.
-INFO: [v++ 60-585] Compiling for software emulation target
-INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_2_1_202010_1
-INFO: [v++ 60-242] Creating kernel: 'vadd'
-INFO: [v++ 60-594] Finished kernel compilation
-INFO: [v++ 60-586] Created build/vadd.xo
-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
-    vitis_analyzer /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/Emulation-SW/build/vadd.xo.compile_summary 
-INFO: [v++ 60-791] Total elapsed time: 0h 3m 41s
-INFO: [v++ 60-1653] Closing dispatch client.
-18:26:48 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_system_hw_link ****
+make: Nothing to be done for 'all'.
+18:39:17 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_system_hw_link ****
 make all 
-/home/zohra/Vitis/2022.1/bin/v++ --target sw_emu --link --config vadd-link.cfg -o"vadd.xclbin" ../../sorting_big_data_kernels/Emulation-SW/build/vadd.xo
-Option Map File Used: '/home/zohra/Vitis/2022.1/data/vitis/vpp/optMap.xml'
-
-****** v++ v2022.1 (64-bit)
-  **** SW Build 3524075 on 2022-04-13-17:42:45
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
-	Reports: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.build/reports/link
-	Log files: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.build/logs/link
-Running Dispatch Server on port: 33137
-INFO: [v++ 60-1548] Creating build summary session with primary output /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.xclbin.link_summary, at Thu Feb  8 18:27:06 2024
-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Feb  8 18:27:06 2024
-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm
-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/hw/hw.xsa'
-INFO: [v++ 74-78] Compiler Version string: 2022.1
-INFO: [v++ 60-1302] Platform 'xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm' has been explicitly enabled for this release.
-INFO: [v++ 60-629] Linking for software emulation target
-INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_2_1_202010_1
-INFO: [v++ 60-645] kernel flags are '-g -I /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_kernels/src -I /home/zohra/Vitis_Libraries-2022.1/database/L1/include/sw -I /home/zohra/Vitis_Libraries-2022.1/database/L1/include/hw -I /home/zohra/Vitis_Libraries-2022.1/utils -g'
-INFO: [v++ 60-586] Created vadd.xclbin
-INFO: [v++ 60-1307] Run completed. Additional information can be found in:
-	Steps Log File: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.build/logs/link/link.steps.log
-
-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
-    vitis_analyzer /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system_hw_link/Emulation-SW/vadd.xclbin.link_summary 
-INFO: [v++ 60-791] Total elapsed time: 0h 0m 29s
-INFO: [v++ 60-1653] Closing dispatch client.
-18:27:23 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_system ****
+make: Nothing to be done for 'all'.
+18:39:19 **** Incremental Build of configuration Emulation-SW for project sorting_big_data_system ****
 make all 
 /home/zohra/Vitis/2022.1/bin/v++ --package --config package.cfg ../../sorting_big_data_system_hw_link/Emulation-SW/vadd.xclbin -o vadd.xclbin
 Option Map File Used: '/home/zohra/Vitis/2022.1/data/vitis/vpp/optMap.xml'
@@ -71,10 +19,10 @@ Option Map File Used: '/home/zohra/Vitis/2022.1/data/vitis/vpp/optMap.xml'
 INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
 	Reports: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/package.build/reports/package
 	Log files: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/package.build/logs/package
-Running Dispatch Server on port: 40109
-INFO: [v++ 60-1548] Creating build summary session with primary output /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/vadd.xclbin.package_summary, at Thu Feb  8 18:27:38 2024
-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Feb  8 18:27:38 2024
-INFO: [v++ 60-1315] Creating rulecheck session with output '/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/package.build/reports/package/v++_package_vadd_guidance.html', at Thu Feb  8 18:27:40 2024
+Running Dispatch Server on port: 43463
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/vadd.xclbin.package_summary, at Thu Feb  8 18:39:33 2024
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Feb  8 18:39:33 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/package.build/reports/package/v++_package_vadd_guidance.html', at Thu Feb  8 18:39:37 2024
 INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/xilinx_u250_gen3x16_xdma_2_1_202010_1.xpfm
 INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_2_1_202010_1/hw/hw.xsa'
 INFO: [v++ 74-78] Compiler Version string: 2022.1
@@ -83,6 +31,6 @@ INFO: [v++ 60-2256] Packaging for software emulation
 INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/vadd.xclbin
 INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
     vitis_analyzer /home/zohra/MyWorkspace/host_python_demo/sorting_big_data_system/Emulation-SW/vadd.xclbin.package_summary 
-INFO: [v++ 60-791] Total elapsed time: 0h 0m 21s
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 22s
 INFO: [v++ 60-1653] Closing dispatch client.
 cp -f vadd.xclbin ../../sorting_big_data/Emulation-SW

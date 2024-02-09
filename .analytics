@@ -49,3 +49,7 @@ timestamp=[2024-02-08 18:22:59], mode=BUILD, duration=0:00:01.526, duration_ms=1
 timestamp=[2024-02-08 18:26:48], mode=BUILD, duration=0:03:45.234, duration_ms=225234, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
 timestamp=[2024-02-08 18:27:23], mode=BUILD, duration=0:00:35.460, duration_ms=35460, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
 timestamp=[2024-02-08 18:27:49], mode=BUILD, duration=0:00:25.495, duration_ms=25495, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:39:11], mode=BUILD, duration=0:00:01.607, duration_ms=1607, data={name=sorting_big_data, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:39:16], mode=BUILD, duration=0:00:01.585, duration_ms=1585, data={name=sorting_big_data_kernels, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:39:19], mode=BUILD, duration=0:00:01.845, duration_ms=1845, data={name=sorting_big_data_system_hw_link, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-02-08 18:39:45], mode=BUILD, duration=0:00:26.305, duration_ms=26305, data={name=sorting_big_data_system, configuration=Emulation-SW, clean_build=false}

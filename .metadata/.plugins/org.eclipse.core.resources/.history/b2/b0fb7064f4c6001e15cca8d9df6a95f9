@@ -43,7 +43,7 @@ def runKernel(opt):
     boHandle1.write(zeros, 0)
     bo1 = boHandle1.map()
 
-  #  boHandle2 = pyxrt.bo(d, opt.DATA_SIZE, pyxrt.bo.normal, kHandle.group_id(2))
+  #  boHandle2 = pyxrt.bo(d, opt.DATA_SIZE, pyxrt.bo.normal, kHandle.group_id(1))
    # boHandle2.write(zeros, 0)
    # bo2 = boHandle2.map()
     print("Allocate and initialize buffers out")
